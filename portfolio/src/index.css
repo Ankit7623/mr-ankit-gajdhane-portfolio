@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --color-ice-silver: #d0dbe7;
+  --color-deep-aubergine: #2d0d3b;
+  --color-marigold: #f59e0b;
+}
+
+@theme {
+  /* ── Custom Brand Palette: Ice Silver, Deep Aubergine, Marigold ── */
+  --color-ice-silver-50: #f8fafc;
+  --color-ice-silver-100: #f1f5f9;
+  --color-ice-silver-200: #e2e8f0;
+  --color-ice-silver-300: #d0dbe7;
+  --color-ice-silver-400: #a8b9cc;
+  --color-ice-silver-500: #7f95ad;
+  --color-ice-silver-600: #5e738c;
+  --color-ice-silver-700: #47586c;
+  --color-ice-silver-800: #333f4d;
+  --color-ice-silver-900: #1f2730;
+  --color-ice-silver-950: #10151b;
+  --color-ice-silver: #d0dbe7;
+
+  --color-deep-aubergine-50: #faf4fc;
+  --color-deep-aubergine-100: #f3e6f9;
+  --color-deep-aubergine-200: #e7cef3;
+  --color-deep-aubergine-300: #d4a9e9;
+  --color-deep-aubergine-400: #b976d8;
+  --color-deep-aubergine-500: #994bc0;
+  --color-deep-aubergine-600: #7b329f;
+  --color-deep-aubergine-700: #61247e;
+  --color-deep-aubergine-800: #4c1b63;
+  --color-deep-aubergine-900: #2d0d3b;
+  --color-deep-aubergine-950: #1a0523;
+  --color-deep-aubergine: #2d0d3b;
+
+  --color-marigold-50: #fffbeb;
+  --color-marigold-100: #fef3c7;
+  --color-marigold-200: #fde48a;
+  --color-marigold-300: #fcd04d;
+  --color-marigold-400: #fbb724;
+  --color-marigold-500: #f59e0b;
+  --color-marigold-600: #d97706;
+  --color-marigold-700: #b45309;
+  --color-marigold-800: #92400e;
+  --color-marigold-900: #78350f;
+  --color-marigold-950: #451b03;
+  --color-marigold: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
